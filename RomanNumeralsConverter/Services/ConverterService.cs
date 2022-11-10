@@ -7,8 +7,8 @@ namespace RomanNumeralsConverter.Functions
         {
             int givenNum = number;
             List<string> resultRomanNumerals = new List<string>();
-            List<int> numberValues = new List<int>() { 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1  };
-            List<string> romanNumerals = new List<string>() { "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+            List<int> numberValues = new List<int>() { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1  };
+            List<string> romanNumerals = new List<string>() { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
             //two lists of numbers and their roman numeral conterparts are iterated through until the input 'number' is greater than the current 'numberValue'
             for (int x = 0; x < numberValues.Count; x++)
